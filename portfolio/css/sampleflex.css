@@ -1,0 +1,288 @@
+* {
+    margin: 0;
+    /* border: 1px solid; */
+    margin-bottom: 12px;
+}
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: rgba(233, 231, 227, 0.44);
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+hr {
+    border-top: red 5px solid;
+}
+.portp {
+    color: red;
+    /* margin: 14px; */
+}
+.container {
+    border: 2px solid;
+}
+.portleft img {
+    width: 131px;
+    height: fit-content;
+}
+
+.portfolio {
+    display: flex;
+    /* justify-content: space-around; */
+    gap: 30px;
+    margin-top: 14px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgba(64, 101, 114, 0.55);
+}
+.pink {
+    font-style: bold;
+    color: black;
+}
+.biodata {
+    display: flex;
+    /* justify-content: space-around; */
+    gap: 30px;
+    /* margin: 50px; */
+    color: rgba(64, 101, 114, 0.55);
+}
+.bioimg {
+    width: 20px;
+
+    padding: 5px;
+}
+.bioimg {
+    font-weight: bold;
+    height: fit-content;
+}
+.bimg {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 130px;
+}
+.bimg img {
+    width: 20px;
+    height: 20px;
+    align-items: center;
+    gap: 130px;
+}
+.act {
+    display: flex;
+    /* justify-content: space-around; */
+    gap: 100px;
+    width: 80%;
+    color: rgba(64, 101, 114, 0.55);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 45px;
+}
+/* .activit {
+    margin-left: 32px;
+    margin-right: 23px;
+} */
+
+.hob {
+    display: flex;
+    /* justify-content: space-around; */
+    gap: 110px;
+    margin-bottom: 45px;
+    color: rgba(64, 101, 114, 0.55);
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* .hob p { */
+/* margin-left: 75px; */
+/* margin-left: 54px; */
+/* margin-right: 35px; */
+/* } */
+.sp {
+    display: flex;
+    /* justify-content: space-around; */
+    gap: 90px;
+    margin-bottom: 45px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+    color: rgba(64, 101, 114, 0.55);
+}
+/* .sp p { 
+    margin-right: 16px;
+}*/
+.skill {
+    display: flex;
+
+    gap: 170px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 45px;
+
+    color: rgba(64, 101, 114, 0.55);
+}
+.skillhead h4 {
+    margin-bottom: 30px;
+}
+.htmlborder {
+    border-bottom: 2px solid red;
+    width: 203px;
+    margin-bottom: 42px;
+    padding: 2px;
+}
+.black1 {
+    background-color: black;
+    width: fit-content;
+    margin-left: 172px;
+    color: white;
+}
+.css3border {
+    border-bottom: 2px solid red;
+    width: 158px;
+    margin-bottom: 45px;
+    padding: 2px;
+}
+.black2 {
+    background-color: black;
+    width: fit-content;
+    margin-left: 128px;
+    color: white;
+}
+
+.black3 {
+    background-color: black;
+    width: fit-content;
+    margin-left: 93px;
+    color: white;
+}
+
+.cborder {
+    border-bottom: 2px solid red;
+    width: 119px;
+    margin-bottom: 45px;
+    padding: 2px;
+}
+.portfo {
+    display: flex;
+    gap: 130px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-bottom: 64px;
+}
+
+img {
+    width: 253px;
+    height: 140px;
+    margin-bottom: 12px;
+}
+
+.imgcontainer img {
+    margin-bottom: 12px;
+    margin-left: -120px;
+    border: 2px solid rgba(64, 101, 114, 0.55);
+    border-radius: 12px;
+}
+.imgcontainer img:hover {
+    transform: scale(1.11);
+}
+
+.edu {
+    display: flex;
+
+    gap: 130px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgba(64, 101, 114, 0.55);
+}
+/* .college { 
+    margin-left: -699px;
+}*/
+.add {
+    display: flex;
+    gap: 130px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 74px;
+    color: rgba(64, 101, 114, 0.55);
+}
+.gitlin {
+    width: 50px;
+    height: 50px;
+}
+.market {
+    display: flex;
+
+    gap: 130px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.flx {
+    display: flex;
+}
+/* .marketplace h4 { */
+/* margin-left: 138px; */
+/* } */
+.email p {
+    color: red;
+}
+/* form start */
+.getintouch {
+    margin-top: 115px;
+    gap: 30px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    padding: 40px 0;
+
+    /* box-shadow: 0 5px 6px rgba(0, 0, 0, 0.219); */
+}
+.getintouch h4 {
+    font-size: 20px;
+    width: 611px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.form {
+    width: 611px;
+    margin: 54px auto;
+}
+.form input {
+    border: 2px rgb(94, 93, 93);
+    background-color: rgb(193, 192, 192);
+    width: 600px;
+    height: 46px;
+}
+.formtext {
+    margin: 54px auto;
+    width: 600px;
+}
+.formtext input {
+    border: 2px rgb(94, 93, 93);
+    background-color: rgb(193, 192, 192);
+    height: 140px;
+    width: 600px;
+}
+.button {
+    margin-left: 104px;
+}
+.submitbutton {
+    text-align: center;
+    background-color: red;
+}
+/* form end */
+/* footer */
+footer {
+    text-align: right;
+    color: red;
+    padding: 20px;
+    margin-top: 13px;
+}

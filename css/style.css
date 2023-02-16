@@ -1,0 +1,24 @@
+/* div {
+    border: 2px solid;
+} */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bimg img {
+    width: 20px;
+    height: 20px;
+    align-items: center;
+    gap: 130px;
+}
+.banner {
+    height: fit-content;
+    /* width: 75%; */
+}
+.bar {
+    background-color: #eeeeee;
+}
+.images:hover {
+    transform: scale(1.5);
+}
